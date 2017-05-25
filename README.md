@@ -33,7 +33,7 @@ Add the below line to: config\app.php under the 'providers' => [
 
      \Mukuru\MukuruFX\MukuruFXServiceProvider::class,
      
-After you have registered the service provider in your commandline or terminal:
+After you have registered the service provider,  open your commandline or terminal:
 
 Run the following commands:
 
@@ -64,7 +64,9 @@ To access the config file: config/mukurufxconfig.php
        from: packages\mukurufx\src\Mukuru\MukuruFX\classes\commands\MukuruFXUpdate.php
        to:   app\Console\Commands\MukuruFXUpdate.php
 
-    Update the commands array as:
+    The next step in to Update the Kernel commands array as:
+    
+    Update the following file:  app\Console\Kernel.php
 
     protected $commands = [
             //
