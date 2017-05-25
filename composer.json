@@ -1,0 +1,18 @@
+{
+  "name": "mukuru/currencies",
+  "description": "This Package allows you to purchase Foreign Exchange Currencies using up-todate Exchange Rates",
+  "authors" : [
+    {
+      "name" : "Peace Ngara",
+      "email" : "peacengara@aol.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mukuru\\MukuruFX\\": "src/"
+    }
+  },
+  "require" : {
+    "guzzlehttp/guzzle": "~6.0"
+  }
+}
